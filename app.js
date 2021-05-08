@@ -18,7 +18,7 @@ app.get ("/", function (req, res) {
 // Configure mailchimp api
 mailchimp.setConfig({
     apiKey: process.env.API_KEY,
-    server: process.env.SERVER,
+    server: process.env.SERVER
 });
 
 // Setup post method
